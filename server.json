@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/nist-beacon",
   "title": "Nist Beacon",
-  "description": "NIST Randomness Beacon v2 — signed public random pulses every 60s.",
-  "version": "0.1.0",
+  "description": "NIST Randomness Beacon MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/nist-beacon",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-nist-beacon",
