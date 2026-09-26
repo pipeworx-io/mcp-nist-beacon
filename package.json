@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-nist-beacon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NIST Randomness Beacon MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-40b67ae6144cdfe5ea8685afdd6669539954c166f852a36182d0c61d3eae1adc",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-bdadcfd4fc7bfcf4ccb90d2388af5c967e859ebcff2210199b0e2dd48172f226",
+    "sourceCommit": "97740c6ee04c8acbfe7dddcacfde9e88ff2b9ca0"
   }
 }
