@@ -1,0 +1,74 @@
+[
+  {
+    "name": "last_pulse",
+    "description": "Fetch the most recent NIST Randomness Beacon pulse: a publicly verifiable, timestamped 512-bit random value signed by NIST, updated every 60 seconds.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "pulse_at",
+    "description": "Fetch the NIST Randomness Beacon pulse closest to a given Unix timestamp in milliseconds (time_ms); returns the 512-bit output value and chain/signature metadata.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "time_ms": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "time_ms"
+      ]
+    }
+  },
+  {
+    "name": "pulse_by_chain_pulse",
+    "description": "Pulse by chain + pulse index.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "chain_id": {
+          "type": "number"
+        },
+        "pulse_id": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "chain_id",
+        "pulse_id"
+      ]
+    }
+  },
+  {
+    "name": "latest_in_chain",
+    "description": "Latest pulse in chain.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "chain_id": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "chain_id"
+      ]
+    }
+  },
+  {
+    "name": "chain_info",
+    "description": "Chain metadata.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "chain_id": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "chain_id"
+      ]
+    }
+  }
+]
